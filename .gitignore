@@ -1,0 +1,23 @@
+# Ignore environment variables (API keys)
+.env
+
+# Ignore CSV data files (outreach results)
+data/*.csv
+
+# Ignore JSON files (Lighthouse reports)
+data/*.json
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+
+# Ignore Jupyter Notebook checkpoints (if you ever use them)
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
